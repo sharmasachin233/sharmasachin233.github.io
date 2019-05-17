@@ -1,2 +1,1 @@
-
-<svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)"/>
+<?xml version="1.0"?><svg><p xmlns="http://www.w3.org/1999/xhtml"><iframe id="x" src="/"></iframe><script>alert(document.getElementById("x").contentDocument.domain)</script></p></svg>
