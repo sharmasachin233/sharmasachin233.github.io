@@ -1,7 +1,6 @@
-<html>
-<script>
-if (window.opener) window.opener.parent.location.replace('https://example.com');
-if (window.parent != window) window.parent.location.replace('https://example.com');
-</script>
-blah
-</html>
+<?php
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: cache-control, X-Requested-With");
+?>
+alert(document.domain); 
+alert(document.cookie);
